@@ -114,6 +114,7 @@ public class Rules {
                             d.insereWaitList(i.getTransacao());
                             i = listaInstrucao.get(cont +=1);
                         }
+                        i = listaInstrucao.get(cont +=1);
                     }
                 } else {
                     if (d.estaEmS(i.getTransacao())) {
